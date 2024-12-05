@@ -1,0 +1,156 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: lightgrey;
+    font-weight: 100;
+    padding: 90px;
+  }
+  .resume {
+    background-color: white;
+    width: 70%;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0 0 15px black;
+  }
+  
+  .Info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding: 30px;
+    overflow: hidden;
+  }
+
+  .Info label {
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.Info input,
+.Info textarea {
+    border: none;
+    background: none;
+    font-size: 18px;
+    color: black;
+    width: auto; 
+    outline: none;
+}
+
+.Info input:focus,
+.Info textarea:focus {
+    outline: none; 
+}
+
+  
+  #button {
+    display: flex;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    box-shadow: 0 0 15px black;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  
+  #button :hover {
+    background-color: rgb(166, 193, 218);
+  }
+
+
+#skills,
+#education,
+#workExperience{
+     width: 100%; 
+    border: none;
+    padding: 20px;
+    background: none; 
+    font-size: 18px;
+    color: black;
+    box-sizing: border-box;
+    }
+
+
+#skills:focus,
+#education:focus,
+#workExperience:focus {
+    outline: none;
+    }
+
+    .profile {
+        float: right;
+        height: 200px;
+        width: 200px;
+        border: 3px solid rgb(162, 194, 223);
+        margin-right: 30px;
+        object-fit: cover;
+      }
+
+    
+    #fileLabel { 
+        float: right;
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        font-family: Arial, sans-serif;
+        margin-top: 20px;
+        margin-left: 750px;
+        margin-right: 50px;
+        cursor: pointer;
+        color: rgb(162, 194, 223); 
+        padding: 5px;
+        border: 1px solid rgb(162, 194, 223);
+        width: 150px;
+    } 
+
+   
+
+ 
+    #fileLabel:hover {
+        color: black;
+    }
+
+    .upload-input {
+        display: none; 
+    }
+
+  .resume {
+    background-color: white;
+    width: 70%;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0 0 15px black;
+  }
+
+  #display {
+    width: 69%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#display h2 {
+    background-color: rgb(162, 194, 223);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+#display p {
+    font-size: 18px;
+    margin: 30px 0;
+   padding-left: 30px;
+}
+
+#display img {
+  float: right;
+  height: 50px;
+  width: 50px;
+  border: 3px solid rgb(162, 194, 223);
+  margin-right: 30px;
+  object-fit: cover;
+  margin-top: -170px;
+}

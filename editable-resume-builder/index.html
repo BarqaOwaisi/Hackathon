@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDITABLE RESUME BUILDER</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    
+    <div class="resume">
+        <form id="resume">
+        <h1 style="background-color:rgb(162, 194, 223)">Personal Information:</h1>
+        <div class="Info">
+            <img id="profileImage" alt="profile" class="profile">
+
+        
+            <input type="file" id="profileUpload" accept="image/*" onchange="uploadProfilePicture()" class="upload-input" required>
+            <label for="profileUpload" id="fileLabel">Choose file</label>
+
+            <label><b>Name:</b> <input type="text" id="name" placeholder="Enter Your Name" required></label><br>
+            <label><b>Contact Details:</b> <input type="text" id="contactDetails"placeholder="Enter Your Conatct Number" required></label><br>
+            <label><b>Email:</b> <input type="text" id="email" placeholder="Enter Your Email" required></label>
+        </div>
+        
+        <h1 style="background-color:rgb(162, 194, 223)">Education:</h1>
+        <div class="Info">
+            <textarea name="education" id="education" rows="5" placeholder="Your Education" required></textarea>
+        </div>
+        
+        <div id="skill-section">
+            <h1 style="background-color:rgb(162, 194, 223)">Skills:</h1>
+            <div class="Info">
+                <textarea name="skills" id="skills" rows="5" placeholder="Your Skills" required></textarea>
+            </div>
+        </div>
+        
+        <h1 style="background-color:rgb(162, 194, 223)">Work Experience:</h1>
+        <div class="Info">
+            <textarea name="workExperience" id="workExperience" rows="5" placeholder="Your Work Experience" required></textarea>
+        </div>
+        
+        <button type="submit" id="button"><b><i>Generate Resume</i></b></button>
+    </form>
+
+       </div>
+
+    <br>
+
+    <div id="display">
+
+    </div>
+    
+
+    <script src="/page.js"></script>
+</body>
+</html>
